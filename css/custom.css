@@ -1,0 +1,154 @@
+/* IMPORTANT: Please use this file instead of tabbedmodule.css to customize colors and other styles. Edit away! */
+
+/* Knowledge Check Quiz Styles */
+#knowledgeCheckQuiz {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.quiz-question {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-question h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.quiz-question p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.quiz-options {
+    margin-left: 10px;
+}
+
+.quiz-option {
+    display: block;
+    margin-bottom: 12px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.quiz-option:hover {
+    background-color: #e9ecef;
+    border-color: #cbd3da;
+}
+
+.quiz-option input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.quiz-option span {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.quiz-feedback {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.quiz-controls {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#submitQuiz, #resetQuiz {
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+#submitQuiz:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+#resetQuiz:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+#quizResults {
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#quizResults h4 {
+    color: #0c5460;
+    margin-bottom: 15px;
+}
+
+#scoreDisplay {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #0c5460;
+}
+
+#feedbackMessage {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0c5460;
+}
+
+/* Disabled state for radio buttons */
+.quiz-option input[type="radio"]:disabled + span {
+    opacity: 0.7;
+}
+
+/* Success/Error highlighting */
+.quiz-question[style*="d4edda"] {
+    border-color: #c3e6cb;
+}
+
+.quiz-question[style*="f8d7da"] {
+    border-color: #f5c6cb;
+}
+
+.quiz-question[style*="fff3cd"] {
+    border-color: #ffeeba;
+}
+
+/* Video Wrapper Styles */
+.video-wrapper {
+    max-width: 560px;
+    margin: 20px auto;
+    border: 2px solid #337ab7;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.video-wrapper h5 {
+    text-align: center;
+    color: #337ab7;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.video-wrapper:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease;
+}
